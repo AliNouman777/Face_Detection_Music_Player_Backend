@@ -1,0 +1,21 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore model files
+# *.h5
+
+# Ignore environment variable files
+.env
+
+# Ignore any log files
+*.log
+
+# Ignore other specific files
+# You can add any other files or directories that you don't want to include in your Git repository
