@@ -31,7 +31,7 @@ def create_app():
     mongo.init_app(app)
     bcrypt.init_app(app)
     jwt.init_app(app)
-    CORS(app, supports_credentials=True, origins=['http://localhost:5173', "https://vistual-emotion-music-player-frontend.onrender.com"])
+    CORS(app, supports_credentials=True, origins=["*"])
 
     # Test MongoDB connection
     @app.route('/', methods=['GET'])
