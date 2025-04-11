@@ -16,7 +16,7 @@ def create_app():
 
     # MongoDB configuration
     app.config['MONGO_URI'] = "mongodb+srv://ali:12345@cluster0.awg30xs.mongodb.net/users?retryWrites=true&w=majority&authSource=admin&appName=Cluster0"
-    app.config['MONGO_URI'] = "mongodb://localhost:27017/users"
+    # app.config['MONGO_URI'] = "mongodb://localhost:27017/users"
 
     # JWT configuration
     app.config['JWT_SECRET_KEY'] = 'afljkdkadfkljadaskflj'
